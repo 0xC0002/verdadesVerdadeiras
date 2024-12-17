@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Gowun Dodum", sans-serif;
-    background: linear-gradient(-45deg, rgb(0, 51, 0), rgb(0, 77, 0), rgb(0, 51, 0));
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
     background-size: 400% 400%; /* Movimento amplo */
     animation: gradientAnimation 10s ease infinite;
     color: #f5f5f5; /* Cor clara para o texto */
