@@ -58,7 +58,7 @@ createHearts(20);
 const createStars = () => {
     const body = document.body;
 
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 200; i++) {
         const star = document.createElement('div');
         star.classList.add('star');
         star.style.left = `${Math.random() * window.innerWidth}px`;
@@ -67,4 +67,4 @@ const createStars = () => {
     }
 };
 
-createStars(1500);
+createStars(199);
