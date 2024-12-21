@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Gowun Dodum", sans-serif;
-    background: linear-gradient(-45deg, rgba(34, 230, 116, 0.4), rgb(53, 182, 85), rgb(65, 177, 42), rgba(23, 32, 42, 0.5));
+    background: linear-gradient(-45deg, rgba(34, 230, 116, 0.4), rgb(53, 182, 85), rgb(46, 199, 16), rgba(23, 32, 42, 0.5));
     background-size: 400% 400%;
     animation: auroraAnimation 15s ease infinite;
     color: #f5f5f5; /* Cor clara para o texto */
