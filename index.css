@@ -18,7 +18,8 @@ body {
     height: 100%;
     background: linear-gradient(45deg, rgba(34, 139, 230, 0.4), rgba(0, 255, 180, 0.4), rgba(34, 139, 230, 0.4), rgba(23, 32, 42, 0.5));
     background-size: 400% 400%;
-    animation: auroraMove 4s ease infinite;
+    animation: auroraMove 5s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+    animation-direction: alternate; /* Alterna a direção */
     z-index: -1; /* Coloca o efeito atrás do conteúdo */
 }
 @keyframes auroraMove {
@@ -217,7 +218,7 @@ header, main, footer {
     position: absolute;
     width: 2px;
     height: 2px;
-    background: white;
+    background: rgba(199, 199, 199, 0.726);
     animation: twinkle 2s infinite ease-in-out;
     border-radius: 50%;
 }
