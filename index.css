@@ -7,10 +7,12 @@ body {
     animation: auroraAnimation 5s ease infinite;
     display: flex;
     justify-content: center;
+    overflow: all; /* Permite a rolagem da página */
     z-index: 1; 
 }
 #aurora {
     position: fixed;
+    pointer-events: none;
     top: 0;
     left: 0;
     width: 100%;
